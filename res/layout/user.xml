@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+    <TextView android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceLarge" android:text="Player-2 Enter Word" android:layout_height="wrap_content" android:textSize="40px" android:layout_weight="0.06" android:layout_width="match_parent"></TextView>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight="0.10">
+        <Spinner android:id="@+id/spinnero" android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="wrap_content"></Spinner>
+        <Spinner android:id="@+id/spinnert" android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="wrap_content"></Spinner>
+               <Spinner android:id="@+id/spinnerth" android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="wrap_content"></Spinner>
+       
+        <Spinner android:id="@+id/spinnerf" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1"></Spinner>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:layout_weight="0.67"></LinearLayout>
+    <Button android:id="@+id/proceed" android:layout_height="wrap_content" android:text="Proceed" android:layout_weight="0.06" android:layout_width="match_parent" android:textSize="40px"></Button>
+    
+</LinearLayout>
